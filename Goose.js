@@ -17,11 +17,6 @@ let allGeeseWitoutGooseFERet = function remRet() {
 console.log("Without word goose functional expression with return:  " + allGeeseWitoutGooseFERet());
 console.log("----------------------------------------------------------------------------------------------------------------------------------------");
 
-//function findDifferentGeese(allGeese, myGeese) {
-// let differentGeese = allGeese.map(x => x.replace(myGeese));
-//}
-
-
 
 function findDifferentGeeseIteration(allGeese, myGeese) {
    var differentGeese = [];
