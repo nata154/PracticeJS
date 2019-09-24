@@ -31,7 +31,7 @@ function removeVowelsInString(origPhrase, vowelsToDelete) {
    let phrase2 = origPhrase;
    let lettersToDelete2 = vowelsToDelete.split("");
    for (let i = 0; i < lettersToDelete2.length; i++) {
-      var s = phrase2.replace("o", "&").replace("i", "&");
+      let s = phrase2.replace("o", "&").replace("i", "&");
       //var s2 = s.search(/[TL]/g, "#").replace(); //dont work, only searchs
       return s;
    }
